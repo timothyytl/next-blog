@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import profileImg from "@/public/vercel.svg"
+import profileImg from "@/public/Tim.png"
 
 const Logo = () => {
   return (
@@ -9,10 +9,10 @@ const Logo = () => {
         <Image
           src={profileImg}
           alt="Tim"
-          className="'w-full h-auto rounded-full"
+          className="'w-full h-auto rounded-full dark:bg-light"
         />
       </div>
-      <span className="font-bold text-xl">Tim Codes</span>
+      <span className="font-bold text-xl dark:text-light">Tim Codes</span>
     </Link>
   )
 }
