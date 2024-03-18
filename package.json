@@ -5,17 +5,35 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@dotlottie/react-player": "^1.6.18",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.1.2",
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "@types/mdx": "^2.0.11",
+    "date-fns": "^3.3.1",
+    "github-slugger": "^2.0.0",
     "next": "14.1.0",
-    "next-themes": "^0.2.1",
+    "next-contentlayer": "^0.3.4",
+    "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.0.1"
+    "react-hook-form": "^7.51.0",
+    "react-icons": "^5.0.1",
+    "reading-time": "^1.5.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-pretty-code": "^0.13.0",
+    "rehype-slug": "^5.1.0",
+    "remark-gfm": "^3.0.1",
+    "shiki": "^1.1.7"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.7.2",

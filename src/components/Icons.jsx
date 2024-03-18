@@ -62,7 +62,7 @@ export const GithubIcon = ({ className, ...rest }) => {
       width={42}
       height={44}
       viewBox="0 0 42 44"
-      className={cx("w-full h-auto dark:bg-white", className)}
+      className={cx("w-full h-auto", className)}
       {...rest}
     >
       <path
